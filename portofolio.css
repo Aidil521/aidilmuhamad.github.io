@@ -1,0 +1,83 @@
+body {
+  background-color: #1b2329;
+  overflow-x: hidden;
+}
+
+.navbar {
+  width: 100%;
+  z-index: 1000;
+}
+
+section {
+  padding: 5rem;
+}
+
+.jumbotron .container {
+  padding-top: 112px;
+}
+
+.jumbotron img {
+  width: 300px;
+  border-radius: 30%;
+}
+
+.jumbotron .col-md-3 .sapaan {
+  font-family: Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.jumbotron .col-md-3 .nama {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.jumbotron .col-md-3 .lead {
+  font-family: Calibri;
+}
+
+.about .container .col h2 {
+  color: rgb(23, 196, 219);
+}
+
+.about .container .col-md-4 p {
+  text-align: justify;
+  margin-left: 12px;
+}
+
+.skills .container .row .col h2 {
+  color: rgb(23, 196, 219);
+}
+
+.skills .container .row .col-md-4 h5 {
+  color: rgb(161, 148, 148);
+  margin-left: 12px;
+}
+
+.skills .container .row .col-md-4 ul li {
+  text-align: justify;
+}
+
+.project .container .row .col h2 {
+  color: rgb(23, 196, 219);
+}
+
+.project .container .row .col-md-5 .card-text {
+  text-align: justify;
+  color: rgb(66, 61, 61);
+}
+
+.certificate {
+  padding-top: 4rem;
+}
+
+.certificate .container .row .col h2 {
+  color: rgb(23, 196, 219);
+}
+
+.contact .container .row .col h2,
+form {
+  color: rgb(23, 196, 219);
+}
+
+footer {
+  background-color: #272829;
+  overflow: auto;
+}
