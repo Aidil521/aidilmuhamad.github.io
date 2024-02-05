@@ -1,6 +1,7 @@
 body {
   background-color: #1b2329;
   overflow-x: hidden;
+  padding: 0;
 }
 
 .navbar {
@@ -9,11 +10,11 @@ body {
 }
 
 section {
-  padding: 5rem;
+  padding: 5rem 1rem;
 }
 
 .jumbotron .container {
-  padding-top: 112px;
+  padding-top: 110px;
 }
 
 .jumbotron img {
