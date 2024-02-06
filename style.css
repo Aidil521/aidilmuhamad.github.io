@@ -21,15 +21,15 @@ section {
   border-radius: 30%;
 }
 
-.jumbotron .col-md-3 .sapaan {
+.jumbotron .col-md-4 .sapaan {
   font-family: Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.jumbotron .col-md-3 .nama {
+.jumbotron .col-md-4 .nama {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.jumbotron .col-md-3 .lead {
+.jumbotron .col-md-4 .lead {
   font-family: Calibri;
 }
 
