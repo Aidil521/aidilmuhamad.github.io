@@ -10,7 +10,7 @@ body {
 }
 
 section {
-  padding: 5rem 1rem;
+  padding: 5rem;
 }
 
 .jumbotron .container {
@@ -80,5 +80,4 @@ form {
 
 footer {
   background-color: #272829;
-  overflow: auto;
 }
