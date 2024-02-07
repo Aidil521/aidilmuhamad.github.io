@@ -8,71 +8,92 @@ body {
   z-index: 1000;
 }
 
+.navbar ul li:hover {
+  background-color: #0566ac;
+  border-radius: 10px;
+}
+
 section {
   padding: 5rem 1rem;
 }
 
-.jumbotron .container {
+#home .container {
   padding-top: 110px;
 }
 
-.jumbotron img {
-  width: 300px;
-  border-radius: 30%;
+.border-white {
+  width: 320px;
+  height: 320px;
+  border: 6px solid white;
+  border-radius: 50%;
 }
 
-.jumbotron .col-md-4 .sapaan {
+.bg-blue {
+  width: auto;
+  height: auto;
+  background-color: rgb(0, 0, 163);
+  border-radius: 50%;
+  border: 5px solid rgb(0, 0, 0, 0.8);
+}
+
+#home img {
+  width: 280px;
+  border-radius: 50%;
+}
+
+#home .col-md-4 .sapaan {
   font-family: Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.jumbotron .col-md-4 .nama {
+#home .col-md-4 .nama {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.jumbotron .col-md-4 .lead {
+#home .col-md-4 .lead {
   font-family: Calibri;
+  color: #0566ac;
 }
 
-.about .container .col h2 {
+#about .container .col h2 {
   color: rgb(23, 196, 219);
 }
 
-.about .container .col-md-4 p {
+#about .container .col-md-4 p {
   text-align: justify;
   margin-left: 12px;
 }
 
-.skills .container .row .col h2 {
+#skills .container .row .col h2 {
   color: rgb(23, 196, 219);
 }
 
-.skills .container .row .col-md-4 h5 {
+#skills .container .row .col-md-4 h5 {
   color: rgb(161, 148, 148);
   margin-left: 12px;
 }
 
-.skills .container .row .col-md-4 ul li {
+#skills .container .row .col-md-4 ul li {
   text-align: justify;
 }
 
-.project .container .row .col h2 {
+#project .container .row .col h2 {
   color: rgb(23, 196, 219);
 }
 
-.project .container .row .col-md-5 .card-text {
+#project .container .row .col-md-5 .card-text {
   text-align: justify;
   color: rgb(66, 61, 61);
 }
 
-.certificate {
+#certificate {
   padding-top: 4rem;
 }
 
-.certificate .container .row .col h2 {
+#certificate .container .row .col h2 {
   color: rgb(23, 196, 219);
 }
 
-.contact .container .row .col h2,
+#contact .container .row .col h2,
 form {
   color: rgb(23, 196, 219);
 }
