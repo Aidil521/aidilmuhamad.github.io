@@ -50,7 +50,7 @@ section {
 }
 
 #home .col-md-4 .lead {
-  font-family: Calibri;
+  font-family: Calibri, Arial, Helvetica, sans-serif;
   color: #0566ac;
 }
 
@@ -83,10 +83,6 @@ section {
 #project .container .row .col-md-5 .card-text {
   text-align: justify;
   color: rgb(66, 61, 61);
-}
-
-#certificate {
-  padding-top: 4rem;
 }
 
 #certificate .container .row .col h2 {
