@@ -10,9 +10,7 @@ body {
 }
 
 .logo-nama {
-  display: inline;
   font-size: 15px;
-  font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -37,8 +35,6 @@ section {
 }
 
 .bg-color-blue {
-  width: auto;
-  height: auto;
   border-radius: 50%;
   background-color: #004a80;/* #070aac; */
   border: 5px solid rgb(0, 0, 0, 0.8);
