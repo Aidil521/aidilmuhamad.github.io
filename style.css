@@ -51,6 +51,7 @@ section {
 
 #home .col-md-4 .nama {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-shadow: 3px 3px 3px #666;
 }
 
 #home .col-md-4 .lead {
