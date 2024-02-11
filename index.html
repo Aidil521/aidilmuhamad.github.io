@@ -297,10 +297,13 @@
             btnSubmit.classList.toggle('d-none');
             btnLoading.classList.toggle('d-none');
             Myalert.classList.toggle('d-none');
-            form.reset();
             console.log('Success!', response);
+            form.reset();
           })
-          .catch(error => console.error('Error!', error.message))
+          .catch(error => {
+            console.error('Error!', error.message);
+            check = false;
+          })
       });
     </script>
   </body>
