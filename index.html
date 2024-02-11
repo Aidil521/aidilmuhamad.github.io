@@ -285,14 +285,14 @@
       const form = document.forms['kontak-saya'];
 
       form.addEventListener('submit', e => {
-          e.preventDefault();
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-              .then(response => {
-                  Myalert.classList.toggle('d-none');
-                  form.reset();
-                  console.log('Success!', response);
-              })
-              .catch(error => console.error('Error!', error.message))
+        e.preventDefault();
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            Myalert.classList.toggle('d-none');
+            form.reset();
+            console.log('Success!', response);
+          })
+          .catch(error => console.error('Error!', error.message))
       });
     </script>
   </body>
