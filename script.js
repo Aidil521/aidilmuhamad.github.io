@@ -8,13 +8,9 @@ const Myalert = document.querySelector('.my-alert');
 form.addEventListener('submit', e => {
     e.preventDefault();
 
-    btnSubmit.classList.toggle('d-none');
-    btnLoading.classList.toggle('d-none');
 
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
         .then(response => {
-            btnSubmit.classList.toggle('d-none');
-            btnLoading.classList.toggle('d-none');
             Myalert.classList.toggle('d-none');
             form.reset();
             console.log('Success!', response);
