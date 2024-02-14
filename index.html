@@ -305,6 +305,15 @@
             check = false;
           })
       });
+
+      document.addEventListener('click', function(event) {
+        const navLinks = document.querySelector('.collapse');
+        const icon = document.querySelector('.navbar-toggler');
+
+        if (!navLinks.contains(event.target) && !icon.contains(event.target)) {
+            navLinks.classList.remove('show');
+        }
+      });
     </script>
   </body>
 </html>
