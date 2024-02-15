@@ -47,6 +47,7 @@ section {
 #home img {
   width: 280px;
   border-radius: 50%;
+  filter: drop-shadow(10px 7px 10px rgb(0, 0, 0))
 }
 
 #home .col-md-4 .sapaan {
